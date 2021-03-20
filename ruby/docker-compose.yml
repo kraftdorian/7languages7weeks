@@ -1,0 +1,10 @@
+version: '3.1'
+
+services:
+  ruby:
+    image: ruby:3.0.0-alpine
+    entrypoint: /bin/ash
+    stdin_open: true
+    working_dir: /ruby
+    volumes:
+      - ./src:/ruby
