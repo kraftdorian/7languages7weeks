@@ -1,5 +1,5 @@
 # 7 Languages in 7 Weeks
-My progress in learning new programming languages from a book "Seven Languages in Seven Weeks" by Bruce Tate.
+My progress in learning new programming languages from a book "Seven Languages in Seven Weeks" by Bruce Tate.\
 I just want to learn the basics as for now, so part of my solutions will probably not be the best ones.
 
 ## Languages
