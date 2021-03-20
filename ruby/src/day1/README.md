@@ -1,4 +1,4 @@
-# Ruby - week 1, day 1
+# Ruby - day 1
 
 ## Exercises
 1. [Display text](./hello_world.rb) "Hello, world".
