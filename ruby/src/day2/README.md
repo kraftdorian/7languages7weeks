@@ -1,7 +1,7 @@
 # Ruby - day 2
 
 ## Exercises
-1. [Display contents of an array](./) which contains sixteen numbers,
+1. [Display contents of an array](./array_each.rb) which contains sixteen numbers,
    four numbers at once, using ```each``` method only.\
    Do the same thing with ```each_slice``` method.
 2. [Make changes in *Tree* class init method](./), so it accepts nested structure.\
