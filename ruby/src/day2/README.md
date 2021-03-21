@@ -9,5 +9,5 @@
    ```ruby
    {'grandfather' => {'father' => {'child 1' => {}, 'child 2' => {}}, 'uncle' => {'child 3' => {}, 'child 4' => {}}}}
    ```
-3. [Write simple *grep* method](./) that displays file rows which contain a given phrase.\
+3. [Write simple *grep* method](./grep.rb) that displays file rows which contain a given phrase.\
    Include row numbers if you want.
