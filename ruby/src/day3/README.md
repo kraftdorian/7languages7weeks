@@ -17,3 +17,34 @@ csv.each { |row| puts row.one }
 ```
 
 it should display text ```lions```.
+
+## Resources
+
+### ActsAsCsv class
+
+```ruby
+class ActsAsCsv
+  def self.acts_as_csv
+    define_method 'initialize' do
+      @result = []
+      read
+    end
+
+    define_method 'headers' do
+      @headers
+    end
+
+    define_method 'csv_contents' do
+      @result
+    end
+
+    define_method 'read' do
+      file = File.new("%s.txt" % self.class.to_s.downcase)
+      @headers = file.gets.chomp.split(', ')
+      file.each do |row|
+        @result << row.chomp.split(', ')
+      end
+    end
+  end
+end
+```
