@@ -11,3 +11,27 @@
    ```
 3. [Write simple *grep* method](./grep.rb) that displays file rows which contain a given phrase.\
    Include row numbers if you want.
+
+## Resources
+
+### Tree class
+
+```ruby
+class Tree
+  attr_accessor :name, :children
+
+  def initialize(name, children = [])
+   @name = name
+   @children = children
+  end
+
+  def visit_all(&block)
+    visit(&block)
+    children.each { |c| c.visit_all(&block) }
+  end
+
+  def visit(&block)
+    block.call(self)
+  end
+end
+```
