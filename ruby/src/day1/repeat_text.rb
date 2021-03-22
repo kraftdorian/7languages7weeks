@@ -6,8 +6,8 @@ https://www.rubyguides.com/2012/01/ruby-string-formatting
 message_template = "This is number %d."
 number_of_reps = 10
 
-# Using Range each with index method.
-(1..number_of_reps).each.with_index { |i| puts message_template % i }
+# Using Range each method.
+(1..number_of_reps).each { |n| puts message_template % n }
 puts
 
 # Using a loop.
