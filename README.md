@@ -3,12 +3,12 @@ My progress in learning new programming languages from a book "Seven Languages i
 I just want to learn the basics as for now, so part of my solutions will probably not be the best ones.
 
 ## Languages
-| Week | Language | Homepage                    | Completion status                         |
-|------|----------|-----------------------------|-------------------------------------------|
-| 1    | Ruby     | https://www.ruby-lang.org/  | ![Progress](https://progress-bar.dev/100) |
-| 2    | Io       | https://iolanguage.org/     | ![Progress](https://progress-bar.dev/0/)  |
-| 3    | Prolog   | https://www.swi-prolog.org/ | ![Progress](https://progress-bar.dev/0/)  |
-| 4    | Scala    | https://www.scala-lang.org/ | ![Progress](https://progress-bar.dev/0/)  |
-| 5    | Erlang   | https://www.erlang.org/     | ![Progress](https://progress-bar.dev/0/)  |
-| 6    | Clojure  | https://clojure.org/        | ![Progress](https://progress-bar.dev/0/)  |
-| 7    | Haskell  | https://www.haskell.org/    | ![Progress](https://progress-bar.dev/0/)  |
+| Week | Language           | Homepage                    | Completion status                         |
+|------|--------------------|-----------------------------|-------------------------------------------|
+| 1    | [Ruby](./ruby/src) | https://www.ruby-lang.org/  | ![Progress](https://progress-bar.dev/100) |
+| 2    | Io                 | https://iolanguage.org/     | ![Progress](https://progress-bar.dev/0/)  |
+| 3    | Prolog             | https://www.swi-prolog.org/ | ![Progress](https://progress-bar.dev/0/)  |
+| 4    | Scala              | https://www.scala-lang.org/ | ![Progress](https://progress-bar.dev/0/)  |
+| 5    | Erlang             | https://www.erlang.org/     | ![Progress](https://progress-bar.dev/0/)  |
+| 6    | Clojure            | https://clojure.org/        | ![Progress](https://progress-bar.dev/0/)  |
+| 7    | Haskell            | https://www.haskell.org/    | ![Progress](https://progress-bar.dev/0/)  |
