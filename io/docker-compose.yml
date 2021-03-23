@@ -1,0 +1,10 @@
+version: '3.1'
+
+services:
+  io:
+    image: kraftdorian/iolanguage:latest
+    entrypoint: /bin/bash
+    stdin_open: true
+    working_dir: /io-lang
+    volumes:
+      - ./src:/io-lang
