@@ -3,7 +3,7 @@ Grid := Object clone
 Algorithm := Grid clone
 Algorithm description := "Sequence of computer implementable instructions"
 
-UserAlgorithm := Algorithm
+UserAlgorithm := Algorithm clone
 UserAlgorithm description := "Algorithm written by a User"
 
 IsomorphicAlgorithm := Algorithm clone
