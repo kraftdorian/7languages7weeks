@@ -6,7 +6,7 @@ I just want to learn the basics as for now, so part of my solutions will probabl
 | Week | Language           | Homepage                    | Completion status                         |
 |------|--------------------|-----------------------------|-------------------------------------------|
 | 1    | [Ruby](./ruby/src) | https://www.ruby-lang.org/  | ![Progress](https://progress-bar.dev/100) |
-| 2    | Io                 | https://iolanguage.org/     | ![Progress](https://progress-bar.dev/0/)  |
+| 2    | [Io](./io/src)     | https://iolanguage.org/     | ![Progress](https://progress-bar.dev/33/) |
 | 3    | Prolog             | https://www.swi-prolog.org/ | ![Progress](https://progress-bar.dev/0/)  |
 | 4    | Scala              | https://www.scala-lang.org/ | ![Progress](https://progress-bar.dev/0/)  |
 | 5    | Erlang             | https://www.erlang.org/     | ![Progress](https://progress-bar.dev/0/)  |
