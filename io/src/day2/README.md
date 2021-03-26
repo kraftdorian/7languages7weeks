@@ -5,7 +5,7 @@
    As an additional exercise provide iterative and recursive solution.
 2. [Modify division operator](./operator.io) so it returns *0* if denominator equals *0*.
 3. [Sum all numbers](./sum.io) present in two-dimensional list.
-4. [Create slot](./) named *myAverage* in *List* object which calculates the average of contained numbers.\
+4. [Create slot](./average.io) named *myAverage* in *List* object which calculates the average of contained numbers.\
    What will happen when there are no numbers in the list?\
    As an additional exercise raise an exception if any of list elements is not a number.
 5. [Write a prototype](./) for two-dimensional list.\
