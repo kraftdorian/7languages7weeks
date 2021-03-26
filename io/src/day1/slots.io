@@ -9,7 +9,7 @@ UserAlgorithm description := "Algorithm written by a User"
 IsomorphicAlgorithm := Algorithm clone
 IsomorphicAlgorithm description := "Algorithm which evolved on the Grid"
 
-quorra := IsomorphicAlgorithm
+quorra := IsomorphicAlgorithm clone
 quorra description = "The last ISO"
 quorra driveLightRunner := method("Vroom!" println)
 
