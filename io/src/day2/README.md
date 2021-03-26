@@ -3,7 +3,7 @@
 ## Exercises
 1. [Calculate nth word of the Fibonacci sequence](./fibonacci.io), where ```fib(1) = 1``` and ```fib(4) = 3```.\
    As an additional exercise provide iterative and recursive solution.
-2. [Modify division operator](./), so it returns *0* if denominator equals *0*.
+2. [Modify division operator](./operator.io) so it returns *0* if denominator equals *0*.
 3. [Sum all numbers](./) present in two-dimensional list.
 4. [Create slot](./) named *myAverage* in *List* object which calculates the average of contained numbers.\
    What will happen when there are no numbers in the list?\
