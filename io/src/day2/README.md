@@ -8,7 +8,7 @@
 4. [Create slot](./average.io) named *myAverage* in *List* object which calculates the average of contained numbers.\
    What will happen when there are no numbers in the list?\
    As an additional exercise raise an exception if any of list elements is not a number.
-5. [Write a prototype](./) for two-dimensional list.\
+5. [Write a prototype](./list.io) for two-dimensional list.\
    Method ```dim(x, y)``` should allocate a list of *y* lists which contain *x* elements each.\
    Method ```set(x, y, value)``` should set a value.\
    Method ```get(x, y)``` should return the value.
