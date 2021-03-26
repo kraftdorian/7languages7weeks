@@ -18,4 +18,4 @@
    The drawn number should be in range starting from 1 to 100.
 
 ## Additional exercise
-Write two-dimensional list *transpose* method, so ```newList get(y, x) == oldList get(x, y)```.
+[Write two-dimensional list *transpose* method](./list.io), so ```newList get(y, x) == oldList get(x, y)```.
