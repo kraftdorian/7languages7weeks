@@ -15,8 +15,7 @@ TwoDimensionalList dim := method(x, y,
 )
 
 TwoDimensionalList set := method(x, y, value,
-  existingValue := self data at(y) at(x)
-  if (existingValue == nil,
+  if (self get(x, y) == nil,
     self data at(y) atInsert(x, value),
     self data at(y) atPut(x, value)
   )
