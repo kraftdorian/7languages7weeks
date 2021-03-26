@@ -2,7 +2,7 @@
 defaultDivisionOperator := Number getSlot("/")
 
 Number / := method(
-  # Operator "/" is a message which is being sent to a target, in this case it is a counter.
+  # Operator "/" is a message which is being sent to a target, in this case target will be a counter.
   counter := call target
 
   # Denominator is passed as a first argument of the message.
@@ -14,6 +14,8 @@ Number / := method(
   )
 )
 
-# Modified operator behavior
+# Modified operator behavior.
 (1 / 0) println
+
+# Normal behavior.
 (5 / 2) println
