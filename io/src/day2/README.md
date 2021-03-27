@@ -12,10 +12,10 @@
    Method ```dim(x, y)``` should allocate a list of *y* lists which contain *x* elements each.\
    Method ```set(x, y, value)``` should set a value.\
    Method ```get(x, y)``` should return the value.
-6. [Save two-dimensional list to file](./), then read it from a file.
-7. [Write a program that randomly selects a number](./), and asks user to guess it.\
+6. [Save two-dimensional list to file](./list.io). Then read it from a file.
+7. [Write a program that randomly selects a number](./). Ask user to guess it.\
    User should have 10 attempts.\
    The drawn number should be in range starting from 1 to 100.
 
 ## Additional exercise
-[Write two-dimensional list *transpose* method](./list.io), so ```newList get(y, x) == oldList get(x, y)```.
+[Write two-dimensional list *transpose* method](./list.io) so ```newList get(y, x) == oldList get(x, y)```.

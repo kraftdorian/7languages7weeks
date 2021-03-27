@@ -39,23 +39,43 @@ TwoDimensionalList transpose := method(
 
 # We provide asString method so output methods like "print" or "println" will use it instead of default one.
 TwoDimensionalList asString := method(
-  result := ""
-  self data foreach(y, row,
-    row foreach(x, col,
-      if (col != nil, result = result .. col asString)
+  output := ""
+  self data foreach(y, row, if (row isEmpty, nil, output = output .. row join(",") .. "\n"))
+  output
+)
+
+TwoDimensionalList asFile := method(filename,
+  file := File with("#{filename}.txt" interpolate)
+)
+
+TwoDimensionalList import := method(importFilename,
+  file := self asFile(importFilename) openForReading
+  rows := file readLines select(i, e, e size > 0)
+  self dim(rows at(0) split(",") size, rows size)
+  rows foreach(y, row,
+    row split(",") foreach(x, col,
+      self set(x, y, col)
     )
-    if (row isEmpty, nil, result = result .. "\n")
   )
-  result
+  file close
+)
+
+TwoDimensionalList export := method(exportFilename,
+  file := self asFile(exportFilename) openForUpdating
+  file write(self asString)
+  file close
 )
 
 list2d := TwoDimensionalList clone
-list2d dim(1, 3)
-list2d set(0, 0, 1)
-list2d set(0, 1, 2)
-list2d set(0, 2, 3)
+list2d dim(2, 2)
+list2d set(0, 0, "A")
+list2d set(1, 0, "B")
+list2d set(0, 1, "C")
+list2d set(1, 1, "D")
+list2d export("list2d")
 
-transposedList2d := list2d transpose
+importedList2d := TwoDimensionalList clone
+importedList2d import("list2d")
 
-list2d println
+transposedList2d := importedList2d transpose
 transposedList2d println
