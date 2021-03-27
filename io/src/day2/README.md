@@ -13,9 +13,10 @@
    Method ```set(x, y, value)``` should set a value.\
    Method ```get(x, y)``` should return the value.
 6. [Save two-dimensional list to file](./list.io). Then read it from a file.
-7. [Write a program that randomly selects a number](./). Ask user to guess it.\
+7. [Write a program that randomly selects a number](./game.io). Ask user to guess it.\
    User should have 10 attempts.\
-   The drawn number should be in range starting from 1 to 100.
+   The drawn number should be in range starting from 1 to 100.\
+   Give user a hint at the first attempt if you want.
 
 ## Additional exercise
 [Write two-dimensional list *transpose* method](./list.io) so ```newList get(y, x) == oldList get(x, y)```.
