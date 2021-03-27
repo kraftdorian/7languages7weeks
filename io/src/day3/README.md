@@ -1,4 +1,4 @@
-# Io - day 2
+# Io - day 3
 
 ## Exercises
 1. [Display XML generator result](./structure.io) in a structured way.
