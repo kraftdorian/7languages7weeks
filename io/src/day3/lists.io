@@ -12,7 +12,7 @@ squareBrackets := method(
 
   Please visit https://iolanguage.org/reference/index.html#Core.Message for a reference of method used below.
   */
-  call message argsEvaluatedIn(self)
+  call message argsEvaluatedIn(call sender)
 )
 
 # This will work already!
