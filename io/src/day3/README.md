@@ -3,7 +3,7 @@
 ## Exercises
 1. [Display XML generator result](./structure.io) in a structured way.
 2. [Implement square brackets access](./lists.io) to lists.
-3. [Handle attributes in XML generator](./).\
+3. [Handle attributes in XML generator](./attributes.io).\
    For example: ```book({"author": "Tate"})``` should return ```<book author="Tate">```.
 
 ## Resources
