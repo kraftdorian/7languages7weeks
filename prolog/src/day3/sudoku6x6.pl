@@ -1,4 +1,4 @@
-:- module(sudoku6x6, [sudoku6x6/2, sudoku6x6test/0]).
+:- module(sudoku6x6, [sudoku6x6/2, sudoku6x6_test/1]).
 :- use_module(library(clpfd)).
 
 % Check if list values are in given range.
@@ -10,6 +10,7 @@ list_different([Head|Tail]) :-
   all_different(Head),
   list_different(Tail).
 
+% Extended original 4x4 Sudoku program found in the book.
 sudoku6x6(Input, Output) :-
   Input = Output,
   Output = [
@@ -50,7 +51,7 @@ sudoku6x6(Input, Output) :-
     Square1, Square2, Square3, Square4, Square5, Square6
   ]).
 
-sudoku6x6test :-
+sudoku6x6_test(Output) :-
   sudoku6x6(
     [
       _, 4, _, 1, 6, 5,
@@ -61,5 +62,4 @@ sudoku6x6test :-
       _, 3, 1, _, _, _
     ],
     Output
-  ),
-  write(Output).
+  ).
