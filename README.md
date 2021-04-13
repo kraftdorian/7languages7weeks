@@ -8,7 +8,7 @@ I just want to learn the basics as for now, so part of my solutions will probabl
 | 1    | [Ruby](./ruby/src)     | https://www.ruby-lang.org/  | ![Progress](https://progress-bar.dev/100) |
 | 2    | [Io](./io/src)         | https://iolanguage.org/     | ![Progress](https://progress-bar.dev/100) |
 | 3    | [Prolog](./prolog/src) | https://www.swi-prolog.org/ | ![Progress](https://progress-bar.dev/100) |
-| 4    | [Scala](./scala/src)   | https://www.scala-lang.org/ | ![Progress](https://progress-bar.dev/66)  |
+| 4    | [Scala](./scala/src)   | https://www.scala-lang.org/ | ![Progress](https://progress-bar.dev/100) |
 | 5    | Erlang                 | https://www.erlang.org/     | ![Progress](https://progress-bar.dev/0/)  |
 | 6    | Clojure                | https://clojure.org/        | ![Progress](https://progress-bar.dev/0/)  |
 | 7    | Haskell                | https://www.haskell.org/    | ![Progress](https://progress-bar.dev/0/)  |
