@@ -1,0 +1,10 @@
+version: '3.1'
+
+services:
+  erlang:
+    image: erlang:23.3.1
+    entrypoint: /bin/bash
+    stdin_open: true
+    working_dir: /erlang
+    volumes:
+      - ./src:/erlang
