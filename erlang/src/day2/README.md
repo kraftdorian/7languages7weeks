@@ -11,7 +11,7 @@
 ```plain
 [{product, quantity, price}, ...].
 ```
-[Write list comprehension](./) which will result in a new list, where *total_price* is *quantity* times *price*:
+[Write list comprehension](./shopping_list.erl) which will result in a new list, where *total_price* is *quantity* times *price*:
 ```plain
 [{product, total_price}, ...]
 ```
