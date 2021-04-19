@@ -3,8 +3,8 @@
 ## Exercises
 1. [Write a program](./translator/translator_supervisor.erl) that monitors the *translation* process and restarts it
    when it dies.
-2. [Write a program](./) that restarts *Doctor* process when it dies.
-3. [Write a program](./) that monitors the monitor of the *Doctor* process and restarts it when it dies.
+2. [Write a program](./doctor/parent.erl) that restarts *Doctor* process when it dies.
+3. [Write a program](./doctor/doctor.erl) that monitors the monitor of the *Doctor* process and restarts it when it dies.
 
 ## Additional exercises
 1. Create simple OTP server that registers messages in file.
