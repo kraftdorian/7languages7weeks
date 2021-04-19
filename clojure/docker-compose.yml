@@ -1,0 +1,10 @@
+version: '3.1'
+
+services:
+  clojure:
+    image: clojure:openjdk-11-lein-2.9.5
+    entrypoint: /bin/bash
+    stdin_open: true
+    working_dir: /clojure
+    volumes:
+      - ./src:/clojure
