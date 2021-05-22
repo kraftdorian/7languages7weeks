@@ -1,7 +1,7 @@
 # Haskell - day 1
 
 ## Exercises
-1. [Write list reverse function](./).
+1. [Write list reverse function](./reverse.hs).
 2. [Write a function](./) that generates tuples consisting of two colors out of colors set:\
    black, white, blue, yellow, and red.
 3. [Write list comprehension](./) to obtain multiplication table. Example single results:
