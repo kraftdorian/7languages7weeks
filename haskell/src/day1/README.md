@@ -11,4 +11,4 @@
    (3, 6, 18),
    ...
    ```
-4. [Write map coloring algorithm](./) from Prolog chapter using Haskell.
+4. [Write map coloring algorithm](./map.hs) from Prolog chapter using Haskell.
