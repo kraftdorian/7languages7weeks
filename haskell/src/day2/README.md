@@ -2,7 +2,7 @@
 
 ## Exercises
 1. [Write a sorting function](./sort.hs) that accepts an unsorted list and returns the sorted list.
-2. [Write a sorting function](./) that accepts an unsorted list and comparison function.\
+2. [Write a sorting function](./sort_hof.hs) that accepts an unsorted list and comparison function.\
    It should return the sorted list.
 3. [Write a function](./) that converts a string to a number. It should accept leading zeros.\
    Example input: ```2 345 678,99```
