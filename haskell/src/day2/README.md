@@ -9,5 +9,5 @@
 4. [Write a function](./series.hs) that accepts *x* argument and returns lazy series that has every third number, starting from *x*.\
    Then write a function that accepts *y* argument and returns lazy series that has every fifth number, starting from *y*.\
    Merge these functions using the composition mechanism, so we obtain every eighth number, starting from *x + y*.
-5. [Use a partial function](./) to define a function that returns half of a number.\
+5. [Use a partial function](./partial.hs) to define a function that returns half of a number.\
    Also, create the function to add *\n* character at the end of the string.
