@@ -13,5 +13,7 @@ As for now I'm not that good in pure functional programming
 introduced to me by Haskell.\
 I went through with very humble solutions for this day.
 
+As for exercise three - I will need to revisit it later.
+
 I was lucky to find [this article about Monads in JavaScript](https://medium.com/javascript-scene/javascript-monads-made-simple-7856be57bfe8),
 so I could solve the fourth exercise.
